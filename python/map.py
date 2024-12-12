@@ -1,6 +1,4 @@
 import sys
-
-
 def map():
     with open('./reviews.txt', 'r', encoding='utf-8') as file:
         with open('./map.txt', 'w', encoding='utf-8') as mapperFile:
